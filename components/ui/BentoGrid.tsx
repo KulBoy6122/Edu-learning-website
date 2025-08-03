@@ -67,10 +67,14 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "You have been Enrolled";
+  const text = "You have been Enrolled";
+  if (typeof navigator !== "undefined" && navigator.clipboard) {
     navigator.clipboard.writeText(text);
     setCopied(true);
-  };
+  } else {
+    console.warn("Clipboard API not available");
+  }
+};
 
   return (
     <div
