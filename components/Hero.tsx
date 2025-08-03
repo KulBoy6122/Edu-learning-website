@@ -56,7 +56,7 @@ const Hero = () => {
             />
           </a>
         </div>
-          <div className="w-full max-w-[20rem] pt-[75px]">
+          <div className="w-full max-w-[20rem] pt-[75px] m-auto">
           <Image
             src="/exp1.svg"
             alt="E-learning"
