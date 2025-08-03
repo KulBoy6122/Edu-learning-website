@@ -33,7 +33,7 @@ const Hero = () => {
 
       {/* Hero content */}
       <div className="flex justify-center relative my-20 z-10">
-        <div className="flex">
+        <div className="block md:flex">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 ">
             Learn from the best. Anywhere, anytime.
@@ -56,7 +56,7 @@ const Hero = () => {
             />
           </a>
         </div>
-          <div className="w-full max-w-[20rem]">
+          <div className="w-full max-w-[20rem] pt-[75px]">
           <Image
             src="/exp1.svg"
             alt="E-learning"
